@@ -1,0 +1,6 @@
+# Positive test case 1: single statement
+program ABC123
+	begin
+		Pi := 5
+	end
+

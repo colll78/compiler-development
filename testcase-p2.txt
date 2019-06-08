@@ -1,0 +1,6 @@
+# Positive test case 2: several statements
+program Abc456Wxyz begin
+	read (a, a1, B, B1);
+	write (-15 + 20, 3 - 49 < 0);
+	Pi := (pai)
+end

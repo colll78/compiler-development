@@ -1,0 +1,11 @@
+# Negative test case 3: illegal program name
+
+
+program aBc123
+
+	
+	begin 
+	
+		x := 4
+
+	end

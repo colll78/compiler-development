@@ -1,0 +1,18 @@
+<program> ::= program <progname> <compound stmt>
+
+<compoundStmt> ::= begin <stmt> {; <stmt>} end
+<stmt> ::= <simpleStmt> | <structuredStmt>
+
+<structured stmt> ::= <compoundStmt> | <ifStmt> | <whileStmt>
+<whileStmt> ::= while<expr> do <stmt>
+<if stmt> ::= if <expression> then <stmt> | if <expression> then <stmt> else <stmt>
+
+<simpleStmt> ::= <assignStmt> | <readStmt> | <writeStmt>
+<readStmt> ::= read ( <variable> {,<variable>})
+<writeStmt> ::= write ( <expr> {,<expr>})
+
+
+<expr> ::= <simpleExpr> | <simpleExpr><relational_operator><simpleExpr>
+<simpleExpr> ::= [<signaddingop>] <term> {<signaddingop><term>}
+<term> ::= <factor> {<multiplying_operator> <factor>}
+<factor> ::= <variable> | <constant> | (<expr>)

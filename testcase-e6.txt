@@ -1,0 +1,10 @@
+# Negative test case 6: Code beyond the end of the outermost compound statement
+program Abc123def begin
+	f := 17;
+	g := f / 52 end
+
+	h := 6
+end
+
+
+

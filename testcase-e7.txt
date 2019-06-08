@@ -1,0 +1,8 @@
+# Negative test case 7: Unrecognized character (lexical analyzer should identify this error)
+program Abc123def begin
+	f := 17;
+	g := f / 5.2 
+end
+
+
+
